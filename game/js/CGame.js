@@ -12,8 +12,10 @@ function CGame(){
     
     var _oFirstTileSelected;
     var _oSecondTileSelected;
+    var _oThirdTileSelected;
     var _oFirstHintShowing;
     var _oSecondHintShowing;
+    var _oThirdHintShowing;
     
     var _oInterface;
     var _oLayoutSettings = new CLayoutSettings();
@@ -148,14 +150,16 @@ function CGame(){
     this._reset = function(){
        _iScore =0;
        _iCurHintIndex = 0;
-       _iContTileDisappearing = 2;
+       _iContTileDisappearing = 3;
        _iBonusTimeElaps = BONUS_TIME; 
        _iTilesOnBoard = _aTilesMc.length;
        
        _oFirstTileSelected=null;
        _oSecondTileSelected=null;
+       _oThirdTileSelected=null;
        _oFirstHintShowing=null;
        _oSecondHintShowing=null;
+       _oThirdHintShowing=null;
         
        $("#match_game_container").css("background-image", "url("+s_oSpriteLibrary.getSpritePath('game_bg')+")");
 
@@ -244,7 +248,7 @@ function CGame(){
     };
     
     this._checkTileMatching = function(){
-        if(_oFirstTileSelected.getValue() === _oSecondTileSelected.getValue()){
+        if(_oFirstTileSelected.getValue() === _oSecondTileSelected.getValue() && _oFirstTileSelected.getValue() === _oThirdTileSelected.getValue()){
                 //MATCHING FOUND!!
                 _oInterface.showBlock();
                 
@@ -252,15 +256,19 @@ function CGame(){
                 _oFirstTileSelected.remove();
                 this._checkForSimilarBlock(_oSecondTileSelected);
                 _oSecondTileSelected.remove();
+                this._checkForSimilarBlock(_oThirdTileSelected);
+                _oThirdTileSelected.remove();
 
                 this._calculateScore();
         }else{
                 _oFirstTileSelected.deselect();
                 _oSecondTileSelected.deselect();
+                _oThirdTileSelected.deselect();
         }
 
         _oFirstTileSelected = null;
         _oSecondTileSelected = null;
+        _oThirdTileSelected = null;
     };
     
     this.onTileRemoved = function(aUnlockList){
@@ -287,7 +295,7 @@ function CGame(){
                 this._gameOver();
             }
 
-            _iContTileDisappearing = 2;
+            _iContTileDisappearing = 3;
         }
     };
     
@@ -414,13 +422,25 @@ function CGame(){
             _oSecondHintShowing.deselect();
             _oSecondHintShowing = null;
         }
+        if(_oThirdHintShowing){
+        	_oThirdHintShowing.deselect();
+        	_oThirdHintShowing = null;
+        }
 
         if(_oFirstTileSelected === null){
             _oFirstTileSelected = _aTilesMc[iIndex];
-        }else {
-            _oSecondTileSelected = _aTilesMc[iIndex];
+        }
+        
+        if (_aTilesMc[iIndex] != _oFirstTileSelected && _oFirstTileSelected && _oSecondTileSelected === null) {
+            _oSecondTileSelected = _aTilesMc[iIndex];	
+        }
+        if (_aTilesMc[iIndex] != _oSecondTileSelected && _oSecondTileSelected && _oThirdTileSelected === null) {
+        	_oThirdTileSelected = _aTilesMc[iIndex];
+        }
+        if (_aTilesMc[iIndex] != _oSecondTileSelected && _oSecondTileSelected && _oThirdTileSelected && _oFirstTileSelected) {
             this._checkTileMatching();	
         }
+
     };
     
     this.onTileDeselected = function(){
