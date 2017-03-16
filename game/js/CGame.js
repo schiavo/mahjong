@@ -111,7 +111,7 @@ function CGame(){
                                     "dragon1", "dragon1", "dragon1",
                                     "dragon2", "dragon2", "dragon2",
                                     // "dragon3", "dragon3", "dragon3",
-                                    "flower1", "flower2", "flower3", "flower4",
+                                    "flower1", "flower2", "flower3",
                                     "season1", "season2", "season3"
         );
                                     
@@ -394,7 +394,7 @@ function CGame(){
                                         "dragon1", "dragon1", "dragon1",
                                         "dragon2", "dragon2", "dragon2",
                                         // "dragon3", "dragon3", "dragon3",
-                                        "flower1", "flower2", "flower3", "flower4",
+                                        "flower1", "flower2", "flower3",
                                         "season1", "season2", "season3"
             );
 
