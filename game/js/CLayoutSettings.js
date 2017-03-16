@@ -168,51 +168,51 @@ function CLayoutSettings(){
         // _aTilesPosition[142] = {x:189.2,y:145.95};
         // _aTilesPosition[143] = {x:170.25,y:122.95};
 
-        _aUpBlocks[0] = [];_aLeftBlocks[0] = [];_aRightBlocks[0] = [1];
-        _aUpBlocks[1] = [];_aLeftBlocks[1] = [0];_aRightBlocks[1] = [2];
-        _aUpBlocks[2] = [];_aLeftBlocks[2] = [1];_aRightBlocks[2] = [3];
-        _aUpBlocks[3] = [];_aLeftBlocks[3] = [2];_aRightBlocks[3] = [4];
+        _aUpBlocks[0] = [];_aLeftBlocks[0] = [];_aRightBlocks[0] = [];
+        _aUpBlocks[1] = [];_aLeftBlocks[1] = [];_aRightBlocks[1] = [];
+        _aUpBlocks[2] = [];_aLeftBlocks[2] = [];_aRightBlocks[2] = [];
+        _aUpBlocks[3] = [];_aLeftBlocks[3] = [];_aRightBlocks[3] = [];
 
-        _aUpBlocks[4] = [];_aLeftBlocks[4] = [3];_aRightBlocks[4] = [5];
-        _aUpBlocks[5] = [];_aLeftBlocks[5] = [4];_aRightBlocks[5] = [6];
-        _aUpBlocks[6] = [];_aLeftBlocks[6] = [5];_aRightBlocks[6] = [7];
+        _aUpBlocks[4] = [];_aLeftBlocks[4] = [];_aRightBlocks[4] = [];
+        _aUpBlocks[5] = [];_aLeftBlocks[5] = [];_aRightBlocks[5] = [];
+        _aUpBlocks[6] = [];_aLeftBlocks[6] = [];_aRightBlocks[6] = [];
 
         _aUpBlocks[7] = [];_aLeftBlocks[7] = [];_aRightBlocks[7] = [];
         _aUpBlocks[8] = [];_aLeftBlocks[8] = [];_aRightBlocks[8] = [];
 
-        _aUpBlocks[9] = [];_aLeftBlocks[9] = [8];_aRightBlocks[9] = [10];
-        _aUpBlocks[10] = [];_aLeftBlocks[10] = [9];_aRightBlocks[10] = [11];
-        _aUpBlocks[11] = [];_aLeftBlocks[11] = [];_aRightBlocks[11] = [12];
-        _aUpBlocks[12] = [];_aLeftBlocks[12] = [11];_aRightBlocks[12] = [13];
-        _aUpBlocks[13] = [];_aLeftBlocks[13] = [12];_aRightBlocks[13] = [];
+        _aUpBlocks[9] = [];_aLeftBlocks[9] = [];_aRightBlocks[9] = [];
+        _aUpBlocks[10] = [];_aLeftBlocks[10] = [];_aRightBlocks[10] = [];
+        _aUpBlocks[11] = [];_aLeftBlocks[11] = [];_aRightBlocks[11] = [];
+        _aUpBlocks[12] = [];_aLeftBlocks[12] = [];_aRightBlocks[12] = [];
+        _aUpBlocks[13] = [];_aLeftBlocks[13] = [];_aRightBlocks[13] = [];
 
-        _aUpBlocks[14] = [];_aLeftBlocks[14] = [];_aRightBlocks[14] = [15];
-        _aUpBlocks[15] = [];_aLeftBlocks[15] = [14];_aRightBlocks[15] = [16];
-        _aUpBlocks[16] = [];_aLeftBlocks[16] = [15];_aRightBlocks[16] = [];
+        _aUpBlocks[14] = [];_aLeftBlocks[14] = [];_aRightBlocks[14] = [];
+        _aUpBlocks[15] = [];_aLeftBlocks[15] = [];_aRightBlocks[15] = [];
+        _aUpBlocks[16] = [];_aLeftBlocks[16] = [];_aRightBlocks[16] = [];
 
-        _aUpBlocks[17] = [];_aLeftBlocks[17] = [15];_aRightBlocks[17] = [19];
-        _aUpBlocks[18] = [];_aLeftBlocks[18] = [17];_aRightBlocks[18] = [21];
-        _aUpBlocks[19] = [];_aLeftBlocks[19] = [23];_aRightBlocks[19] = [16];
+        _aUpBlocks[17] = [];_aLeftBlocks[17] = [];_aRightBlocks[17] = [];
+        _aUpBlocks[18] = [];_aLeftBlocks[18] = [];_aRightBlocks[18] = [];
+        _aUpBlocks[19] = [];_aLeftBlocks[19] = [];_aRightBlocks[19] = [];
 
         _aUpBlocks[20] = [];_aLeftBlocks[20] = [];_aRightBlocks[20] = [];
-        _aUpBlocks[21] = [];_aLeftBlocks[21] = [18,25];_aRightBlocks[21] = [22];
-        _aUpBlocks[22] = [];_aLeftBlocks[22] = [21];_aRightBlocks[22] = [23];
-        _aUpBlocks[23] = [];_aLeftBlocks[23] = [22];_aRightBlocks[23] = [19];
+        _aUpBlocks[21] = [];_aLeftBlocks[21] = [];_aRightBlocks[21] = [];
+        _aUpBlocks[22] = [];_aLeftBlocks[22] = [];_aRightBlocks[22] = [];
+        _aUpBlocks[23] = [];_aLeftBlocks[23] = [];_aRightBlocks[23] = [];
 
-        _aUpBlocks[24] = [];_aLeftBlocks[24] = [28];_aRightBlocks[24] = [25];
-        _aUpBlocks[25] = [];_aLeftBlocks[25] = [24];_aRightBlocks[25] = [21];
+        _aUpBlocks[24] = [];_aLeftBlocks[24] = [];_aRightBlocks[24] = [];
+        _aUpBlocks[25] = [];_aLeftBlocks[25] = [];_aRightBlocks[25] = [];
 
-        _aUpBlocks[26] = [];_aLeftBlocks[26] = [];_aRightBlocks[26] = [27];
-        _aUpBlocks[27] = [];_aLeftBlocks[27] = [26];_aRightBlocks[27] = [28];
-        _aUpBlocks[28] = [];_aLeftBlocks[28] = [27];_aRightBlocks[28] = [24];
+        _aUpBlocks[26] = [];_aLeftBlocks[26] = [];_aRightBlocks[26] = [];
+        _aUpBlocks[27] = [];_aLeftBlocks[27] = [];_aRightBlocks[27] = [];
+        _aUpBlocks[28] = [];_aLeftBlocks[28] = [];_aRightBlocks[28] = [];
         _aUpBlocks[29] = [];_aLeftBlocks[29] = [];_aRightBlocks[29] = [];
 
-        _aUpBlocks[30] = [];_aLeftBlocks[30] = [];_aRightBlocks[30] = [31];
-        _aUpBlocks[31] = [];_aLeftBlocks[31] = [30];_aRightBlocks[31] = [32];
-        _aUpBlocks[32] = [];_aLeftBlocks[32] = [31];_aRightBlocks[32] = [33];
-        _aUpBlocks[33] = [];_aLeftBlocks[33] = [32];_aRightBlocks[33] = [34];
-        _aUpBlocks[34] = [];_aLeftBlocks[34] = [33];_aRightBlocks[34] = [35];
-        _aUpBlocks[35] = [];_aLeftBlocks[35] = [34];_aRightBlocks[35] = [];
+        _aUpBlocks[30] = [];_aLeftBlocks[30] = [];_aRightBlocks[30] = [];
+        _aUpBlocks[31] = [];_aLeftBlocks[31] = [];_aRightBlocks[31] = [];
+        _aUpBlocks[32] = [];_aLeftBlocks[32] = [];_aRightBlocks[32] = [];
+        _aUpBlocks[33] = [];_aLeftBlocks[33] = [];_aRightBlocks[33] = [];
+        _aUpBlocks[34] = [];_aLeftBlocks[34] = [];_aRightBlocks[34] = [];
+        _aUpBlocks[35] = [];_aLeftBlocks[35] = [];_aRightBlocks[35] = [];
 
         // _aUpBlocks[36] = [101,128,139,143];_aLeftBlocks[36] = [35];_aRightBlocks[36] = [37];
         // _aUpBlocks[37] = [102,129,140,143];_aLeftBlocks[37] = [36];_aRightBlocks[37] = [38];
