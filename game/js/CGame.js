@@ -77,42 +77,42 @@ function CGame(){
     };
     
     this._initTilesOnBoard = function(){
-        var aTileValues = new Array("circle1", "circle1", "circle1", "circle1", "circle1", "circle1",
-                                    "circle2", "circle2", "circle2", "circle2",
-                                    "circle3", "circle3", "circle3", "circle3",
+        var aTileValues = new Array("circle1", "circle1", "circle1",
+                                    "circle2", "circle2", "circle2",
+                                    // "circle3", "circle3", "circle3",
                                     // "circle4", "circle4", "circle4", "circle4",
                                     // "circle5", "circle5", "circle5", "circle5",
                                     // "circle6", "circle6", "circle6", "circle6",
                                     // "circle7", "circle7", "circle7", "circle7",
                                     // "circle8", "circle8", "circle8", "circle8",
                                     // "circle9", "circle9", "circle9", "circle9",
-                                    "bamboo1", "bamboo1", "bamboo1", "bamboo1", "bamboo1", "bamboo1",
-                                    "bamboo2", "bamboo2", "bamboo2", "bamboo2",
-                                    "bamboo3", "bamboo3", "bamboo3", "bamboo3",
+                                    "bamboo1", "bamboo1", "bamboo1",
+                                    "bamboo2", "bamboo2", "bamboo2",
+                                    // "bamboo3", "bamboo3", "bamboo3",
                                     // "bamboo4", "bamboo4", "bamboo4", "bamboo4",
                                     // "bamboo5", "bamboo5", "bamboo5", "bamboo5",
                                     // "bamboo6", "bamboo6", "bamboo6", "bamboo6",
                                     // "bamboo7", "bamboo7", "bamboo7", "bamboo7",
                                     // "bamboo8", "bamboo8", "bamboo8", "bamboo8",
                                     // "bamboo9", "bamboo9", "bamboo9", "bamboo9",
-                                    "characters1", "characters1", "characters1", "characters1", "characters1", "characters1",
-                                    "characters2", "characters2", "characters2", "characters2",
-                                    "characters3", "characters3", "characters3", "characters3",
+                                    "characters1", "characters1", "characters1",
+                                    "characters2", "characters2", "characters2",
+                                    // "characters3", "characters3", "characters3",
                                     // "characters4", "characters4", "characters4", "characters4",
                                     // "characters5", "characters5", "characters5", "characters5",
                                     // "characters6", "characters6", "characters6", "characters6",
                                     // "characters7", "characters7", "characters7", "characters7",
                                     // "characters8", "characters8", "characters8", "characters8",
                                     // "characters9", "characters9", "characters9", "characters9",
-                                    "wind1", "wind1", "wind1", "wind1", "wind1", "wind1",
-                                    "wind2", "wind2", "wind2", "wind2",
+                                    "wind1", "wind1", "wind1",
+                                    "wind2", "wind2", "wind2",
                                     // "wind3", "wind3", "wind3", "wind3",
                                     // "wind4", "wind4", "wind4", "wind4",
-                                    "dragon1", "dragon1", "dragon1", "dragon1", "dragon1", "dragon1",
-                                    "dragon2", "dragon2", "dragon2", "dragon2",
-                                    "dragon3", "dragon3", "dragon3", "dragon3",
-                                    // "flower1", "flower2", "flower3", "flower4",
-                                    "season1", "season2", "season3", "season4"
+                                    "dragon1", "dragon1", "dragon1",
+                                    "dragon2", "dragon2", "dragon2",
+                                    // "dragon3", "dragon3", "dragon3",
+                                    "flower1", "flower2", "flower3", "flower4",
+                                    "season1", "season2", "season3"
         );
                                     
         aTileValues  = shuffle(aTileValues);                        
@@ -195,7 +195,7 @@ function CGame(){
     this._win = function(){
         _oInterface.win(_iScore);
     };
-
+    //TODO update hint for triple selection
     this._storeSelectableTiles = function(){
         _aSelectableTiles = new Array();
 			
@@ -242,7 +242,6 @@ function CGame(){
     
     this._checkForSimilarBlock = function(oTileRemoved){
         var aBlockList = oTileRemoved.getBlockList();
-        console.log(aBlockList);
         for(var i=0;i<aBlockList.length;i++){
             var oTileBlocked = _aTilesMc[aBlockList[i].index];
             oTileBlocked.removeBlock(oTileRemoved.getIndex());
@@ -252,6 +251,7 @@ function CGame(){
     this._checkTileMatching = function(){
         if(_oFirstTileSelected.getValue() === _oSecondTileSelected.getValue() && _oFirstTileSelected.getValue() === _oThirdTileSelected.getValue()){
                 //MATCHING FOUND!!
+                this._showMessage();
                 _oInterface.showBlock();
                 
                 this._checkForSimilarBlock(_oFirstTileSelected);
@@ -272,6 +272,14 @@ function CGame(){
         _oSecondTileSelected = null;
         _oThirdTileSelected = null;
     };
+
+    this._showMessage = function(){
+        _oMsgBox.setTextButton(2,"OK");
+        _oMsgBox.showMessageBox("", "Blah", MSG_BOX_MODE_OK,
+            null, ON_MSGBOX_NOT_EXIT_FROM_GAME, null);
+        // $("#msg_box_text").html("Doodie");
+        // $("#msg_box").toggle();
+    }
     
     this.onTileRemoved = function(aUnlockList){
         //CHECK IF TILE REMOVED BLOCKED OTHER TILES
@@ -352,42 +360,42 @@ function CGame(){
         $("#match_game_container").css("display","none");
         
         do{
-            var aTileValues = new Array("circle1", "circle1", "circle1", "circle1", "circle1", "circle1",
-                                        "circle2", "circle2", "circle2", "circle2",
-                                        "circle3", "circle3", "circle3", "circle3",
+            var aTileValues = new Array("circle1", "circle1", "circle1",
+                                        "circle2", "circle2", "circle2",
+                                        // "circle3", "circle3", "circle3",
                                         // "circle4", "circle4", "circle4", "circle4",
                                         // "circle5", "circle5", "circle5", "circle5",
                                         // "circle6", "circle6", "circle6", "circle6",
                                         // "circle7", "circle7", "circle7", "circle7",
                                         // "circle8", "circle8", "circle8", "circle8",
                                         // "circle9", "circle9", "circle9", "circle9",
-                                        "bamboo1", "bamboo1", "bamboo1", "bamboo1", "bamboo1", "bamboo1",
-                                        "bamboo2", "bamboo2", "bamboo2", "bamboo2",
-                                        "bamboo3", "bamboo3", "bamboo3", "bamboo3",
+                                        "bamboo1", "bamboo1", "bamboo1",
+                                        "bamboo2", "bamboo2", "bamboo2",
+                                        // "bamboo3", "bamboo3", "bamboo3",
                                         // "bamboo4", "bamboo4", "bamboo4", "bamboo4",
                                         // "bamboo5", "bamboo5", "bamboo5", "bamboo5",
                                         // "bamboo6", "bamboo6", "bamboo6", "bamboo6",
                                         // "bamboo7", "bamboo7", "bamboo7", "bamboo7",
                                         // "bamboo8", "bamboo8", "bamboo8", "bamboo8",
                                         // "bamboo9", "bamboo9", "bamboo9", "bamboo9",
-                                        "characters1", "characters1", "characters1", "characters1",
-                                        "characters2", "characters2", "characters2", "characters2",
-                                        "characters3", "characters3", "characters3", "characters3",
+                                        "characters1", "characters1", "characters1",
+                                        "characters2", "characters2", "characters2",
+                                        // "characters3", "characters3", "characters3",
                                         // "characters4", "characters4", "characters4", "characters4",
                                         // "characters5", "characters5", "characters5", "characters5",
                                         // "characters6", "characters6", "characters6", "characters6",
                                         // "characters7", "characters7", "characters7", "characters7",
                                         // "characters8", "characters8", "characters8", "characters8",
                                         // "characters9", "characters9", "characters9", "characters9",
-                                        "wind1", "wind1", "wind1", "wind1", "wind1", "wind1",
-                                        "wind2", "wind2", "wind2", "wind2",
+                                        "wind1", "wind1", "wind1",
+                                        "wind2", "wind2", "wind2",
                                         // "wind3", "wind3", "wind3", "wind3",
                                         // "wind4", "wind4", "wind4", "wind4",
-                                        "dragon1", "dragon1", "dragon1", "dragon1", "dragon1", "dragon1",
-                                        "dragon2", "dragon2", "dragon2", "dragon2",
-                                        "dragon3", "dragon3", "dragon3", "dragon3",
-                                        // "flower1", "flower2", "flower3", "flower4",
-                                        "season1", "season2", "season3", "season4"
+                                        "dragon1", "dragon1", "dragon1",
+                                        "dragon2", "dragon2", "dragon2",
+                                        // "dragon3", "dragon3", "dragon3",
+                                        "flower1", "flower2", "flower3", "flower4",
+                                        "season1", "season2", "season3"
             );
 
             var aLeftBlocks= _oLayoutSettings.getLeftBlocks();

@@ -13,49 +13,54 @@ function CLayoutSettings(){
         _pBoardPos ={x:80,y:80};
         _iScoreMultByDifficulty = SCORE_BONUS_LAYOUT_MEDIUM;
         
-        _aTilesPosition[0] = {x:29,y:0};
-        _aTilesPosition[1] = {x:58,y:0.05};
-        _aTilesPosition[2] = {x:87,y:0.05};
-        _aTilesPosition[3] = {x:116,y:0.05};
-        _aTilesPosition[4] = {x:145,y:0.05};
-        _aTilesPosition[5] = {x:175,y:0.05};
-        _aTilesPosition[6] = {x:204,y:0.05};
-        _aTilesPosition[7] = {x:233,y:0.05};
-        _aTilesPosition[8] = {x:262,y:0.05};
-        _aTilesPosition[9] = {x:291,y:0.05};
-        _aTilesPosition[10] = {x:320,y:0.05};
-        _aTilesPosition[11] = {x:349,y:0.05};
+        _aTilesPosition[0] = {x:145,y:0};
+        _aTilesPosition[1] = {x:175,y:0.05};
+        _aTilesPosition[2] = {x:204,y:0.05};
+        _aTilesPosition[3] = {x:233,y:0.05};
 
-        _aTilesPosition[12] = {x:29,y:39.55};
-        _aTilesPosition[13] = {x:349,y:39.55};
+        _aTilesPosition[4] = {x:262,y:19.05};
+        _aTilesPosition[5] = {x:291,y:19.05};
+        _aTilesPosition[6] = {x:320,y:19.05};
 
-        _aTilesPosition[14] = {x:145,y:59.33};
-        _aTilesPosition[15] = {x:175,y:59.33};
-        _aTilesPosition[16] = {x:204,y:59.33};
-        _aTilesPosition[17] = {x:233,y:59.33};
-        _aTilesPosition[18] = {x:262,y:59.55};
+        _aTilesPosition[7] = {x:145,y:39.55};
+        _aTilesPosition[8] = {x:349,y:39.55};
 
-        _aTilesPosition[19] = {x:145,y:98.88};
-        _aTilesPosition[20] = {x:175,y:98.88};
-        _aTilesPosition[21] = {x:204,y:98.88};
-        _aTilesPosition[22] = {x:233,y:98.05};
-        _aTilesPosition[23] = {x:262,y:98.05};
+        _aTilesPosition[9] = {x:87,y:59.33};
+        _aTilesPosition[10] = {x:116,y:59.33};
+        _aTilesPosition[11] = {x:204,y:59.33};
+        _aTilesPosition[12] = {x:233,y:59.33};
+        _aTilesPosition[13] = {x:262,y:59.33};
 
-        _aTilesPosition[24] = {x:175,y:79.05};
-        _aTilesPosition[25] = {x:204,y:79.05};
+        _aTilesPosition[14] = {x:58,y:78.38};
+        _aTilesPosition[15] = {x:145,y:78.38};
+        _aTilesPosition[16] = {x:349,y:78.38};
 
-        _aTilesPosition[26] = {x:29,y:118.55};
-        _aTilesPosition[27] = {x:58,y:118.55};
-        _aTilesPosition[28] = {x:87,y:118.55};
-        _aTilesPosition[29] = {x:320,y:118.55};
-        _aTilesPosition[30] = {x:0,y:118.55};
-        _aTilesPosition[31] = {x:29,y:118.55};
-        _aTilesPosition[32] = {x:58,y:118.55};
-        _aTilesPosition[33] = {x:87,y:118.55};
-        _aTilesPosition[34] = {x:116,y:118.55};
-        _aTilesPosition[35] = {x:145,y:118.55};
-        _aTilesPosition[36] = {x:175,y:118.55};
-        _aTilesPosition[37] = {x:204,y:118.55};
+        _aTilesPosition[17] = {x:175,y:98.88};
+        _aTilesPosition[18] = {x:204,y:98.88};
+        _aTilesPosition[19] = {x:320,y:98.88};
+
+        _aTilesPosition[20] = {x:58,y:118.88};
+        _aTilesPosition[21] = {x:233,y:118.88};
+        _aTilesPosition[22] = {x:262,y:118.88};
+        _aTilesPosition[23] = {x:291,y:118.88};
+
+        _aTilesPosition[24] = {x:175,y:136.95};
+        _aTilesPosition[25] = {x:204,y:136.95};
+
+        _aTilesPosition[26] = {x:87,y:158.05};
+        _aTilesPosition[27] = {x:116,y:158.05};
+        _aTilesPosition[28] = {x:145,y:158.05};
+        _aTilesPosition[29] = {x:291,y:158.05};
+
+        _aTilesPosition[30] = {x:145,y:197.55};
+        _aTilesPosition[31] = {x:175,y:197.55};
+        _aTilesPosition[32] = {x:204,y:197.55};
+        _aTilesPosition[33] = {x:233,y:197.55};
+        _aTilesPosition[34] = {x:262,y:197.55};
+        _aTilesPosition[35] = {x:291,y:197.55};
+
+        // _aTilesPosition[36] = {x:175,y:118.55};
+        // _aTilesPosition[37] = {x:204,y:118.55};
         // _aTilesPosition[38] = {x:233,y:118.55};
         // _aTilesPosition[39] = {x:262,y:118.55};
         // _aTilesPosition[40] = {x:291,y:118.55};
@@ -163,49 +168,54 @@ function CLayoutSettings(){
         // _aTilesPosition[142] = {x:189.2,y:145.95};
         // _aTilesPosition[143] = {x:170.25,y:122.95};
 
-        _aUpBlocks[0] = [];_aLeftBlocks[0] = [];_aRightBlocks[0] = [];
+        _aUpBlocks[0] = [];_aLeftBlocks[0] = [];_aRightBlocks[0] = [1];
         _aUpBlocks[1] = [];_aLeftBlocks[1] = [0];_aRightBlocks[1] = [2];
         _aUpBlocks[2] = [];_aLeftBlocks[2] = [1];_aRightBlocks[2] = [3];
         _aUpBlocks[3] = [];_aLeftBlocks[3] = [2];_aRightBlocks[3] = [4];
+
         _aUpBlocks[4] = [];_aLeftBlocks[4] = [3];_aRightBlocks[4] = [5];
         _aUpBlocks[5] = [];_aLeftBlocks[5] = [4];_aRightBlocks[5] = [6];
         _aUpBlocks[6] = [];_aLeftBlocks[6] = [5];_aRightBlocks[6] = [7];
-        _aUpBlocks[7] = [];_aLeftBlocks[7] = [6];_aRightBlocks[7] = [8];
-        _aUpBlocks[8] = [];_aLeftBlocks[8] = [7];_aRightBlocks[8] = [9];
+
+        _aUpBlocks[7] = [];_aLeftBlocks[7] = [];_aRightBlocks[7] = [];
+        _aUpBlocks[8] = [];_aLeftBlocks[8] = [];_aRightBlocks[8] = [];
+
         _aUpBlocks[9] = [];_aLeftBlocks[9] = [8];_aRightBlocks[9] = [10];
         _aUpBlocks[10] = [];_aLeftBlocks[10] = [9];_aRightBlocks[10] = [11];
-        _aUpBlocks[11] = [];_aLeftBlocks[11] = [];_aRightBlocks[11] = [];
-
-        _aUpBlocks[12] = [];_aLeftBlocks[12] = [];_aRightBlocks[12] = [];
-        _aUpBlocks[13] = [];_aLeftBlocks[13] = [];_aRightBlocks[13] = [];
+        _aUpBlocks[11] = [];_aLeftBlocks[11] = [];_aRightBlocks[11] = [12];
+        _aUpBlocks[12] = [];_aLeftBlocks[12] = [11];_aRightBlocks[12] = [13];
+        _aUpBlocks[13] = [];_aLeftBlocks[13] = [12];_aRightBlocks[13] = [];
 
         _aUpBlocks[14] = [];_aLeftBlocks[14] = [];_aRightBlocks[14] = [15];
         _aUpBlocks[15] = [];_aLeftBlocks[15] = [14];_aRightBlocks[15] = [16];
-        _aUpBlocks[16] = [];_aLeftBlocks[16] = [15];_aRightBlocks[16] = [17];
-        _aUpBlocks[17] = [];_aLeftBlocks[17] = [16];_aRightBlocks[17] = [18];
-        _aUpBlocks[18] = [];_aLeftBlocks[18] = [17];_aRightBlocks[18] = [];
+        _aUpBlocks[16] = [];_aLeftBlocks[16] = [15];_aRightBlocks[16] = [];
 
-        _aUpBlocks[19] = [];_aLeftBlocks[19] = [];_aRightBlocks[19] = [20];
-        _aUpBlocks[20] = [];_aLeftBlocks[20] = [19];_aRightBlocks[20] = [21];
-        _aUpBlocks[21] = [];_aLeftBlocks[21] = [20];_aRightBlocks[21] = [22];
+        _aUpBlocks[17] = [];_aLeftBlocks[17] = [15];_aRightBlocks[17] = [19];
+        _aUpBlocks[18] = [];_aLeftBlocks[18] = [17];_aRightBlocks[18] = [21];
+        _aUpBlocks[19] = [];_aLeftBlocks[19] = [23];_aRightBlocks[19] = [16];
+
+        _aUpBlocks[20] = [];_aLeftBlocks[20] = [];_aRightBlocks[20] = [];
+        _aUpBlocks[21] = [];_aLeftBlocks[21] = [18,25];_aRightBlocks[21] = [22];
         _aUpBlocks[22] = [];_aLeftBlocks[22] = [21];_aRightBlocks[22] = [23];
-        _aUpBlocks[23] = [];_aLeftBlocks[23] = [22];_aRightBlocks[23] = [];
+        _aUpBlocks[23] = [];_aLeftBlocks[23] = [22];_aRightBlocks[23] = [19];
 
-        _aUpBlocks[24] = [95,124];_aLeftBlocks[24] = [23];_aRightBlocks[24] = [25];
-        _aUpBlocks[25] = [96,125];_aLeftBlocks[25] = [24];_aRightBlocks[25] = [26];
+        _aUpBlocks[24] = [];_aLeftBlocks[24] = [28];_aRightBlocks[24] = [25];
+        _aUpBlocks[25] = [];_aLeftBlocks[25] = [24];_aRightBlocks[25] = [21];
 
-        _aUpBlocks[26] = [97,126];_aLeftBlocks[26] = [25];_aRightBlocks[26] = [27];
-        _aUpBlocks[27] = [98];_aLeftBlocks[27] = [26];_aRightBlocks[27] = [28];
-        _aUpBlocks[28] = [];_aLeftBlocks[28] = [27];_aRightBlocks[28] = [29];
+        _aUpBlocks[26] = [];_aLeftBlocks[26] = [];_aRightBlocks[26] = [27];
+        _aUpBlocks[27] = [];_aLeftBlocks[27] = [26];_aRightBlocks[27] = [28];
+        _aUpBlocks[28] = [];_aLeftBlocks[28] = [27];_aRightBlocks[28] = [24];
         _aUpBlocks[29] = [];_aLeftBlocks[29] = [];_aRightBlocks[29] = [];
-        _aUpBlocks[30] = [];_aLeftBlocks[30] = [];_aRightBlocks[30] = [];
+
+        _aUpBlocks[30] = [];_aLeftBlocks[30] = [];_aRightBlocks[30] = [31];
         _aUpBlocks[31] = [];_aLeftBlocks[31] = [30];_aRightBlocks[31] = [32];
         _aUpBlocks[32] = [];_aLeftBlocks[32] = [31];_aRightBlocks[32] = [33];
         _aUpBlocks[33] = [];_aLeftBlocks[33] = [32];_aRightBlocks[33] = [34];
-        _aUpBlocks[34] = [99];_aLeftBlocks[34] = [33];_aRightBlocks[34] = [35];
-        _aUpBlocks[35] = [100,127];_aLeftBlocks[35] = [34];_aRightBlocks[35] = [36];
-        _aUpBlocks[36] = [101,128,139,143];_aLeftBlocks[36] = [35];_aRightBlocks[36] = [37];
-        _aUpBlocks[37] = [102,129,140,143];_aLeftBlocks[37] = [36];_aRightBlocks[37] = [38];
+        _aUpBlocks[34] = [];_aLeftBlocks[34] = [33];_aRightBlocks[34] = [35];
+        _aUpBlocks[35] = [];_aLeftBlocks[35] = [34];_aRightBlocks[35] = [];
+
+        // _aUpBlocks[36] = [101,128,139,143];_aLeftBlocks[36] = [35];_aRightBlocks[36] = [37];
+        // _aUpBlocks[37] = [102,129,140,143];_aLeftBlocks[37] = [36];_aRightBlocks[37] = [38];
         // _aUpBlocks[38] = [103,130];_aLeftBlocks[38] = [37];_aRightBlocks[38] = [39];
         // _aUpBlocks[39] = [104];_aLeftBlocks[39] = [38];_aRightBlocks[39] = [40];
         // _aUpBlocks[40] = [];_aLeftBlocks[40] = [39];_aRightBlocks[40] = [41];
@@ -314,48 +324,53 @@ function CLayoutSettings(){
         // _aUpBlocks[143] = [];_aLeftBlocks[143] = [];_aRightBlocks[143] = [];
 	
         _aBlockingList[0] = [{index:1,decrease:1}];
-        _aBlockingList[1] = [{index:2,decrease:1}];
+        _aBlockingList[1] = [{index:0,decrease:1},{index:2,decrease:1}];
         _aBlockingList[2] = [{index:1,decrease:1},{index:3,decrease:1}];
-        _aBlockingList[3] = [{index:4,decrease:1},{index:2,decrease:1}];
-        _aBlockingList[4] = [{index:5,decrease:1},{index:3,decrease:1}];
-        _aBlockingList[5] = [{index:6,decrease:1},{index:4,decrease:1}];
-        _aBlockingList[6] = [{index:7,decrease:1},{index:5,decrease:1}];
-        _aBlockingList[7] = [{index:8,decrease:1},{index:6,decrease:1}];
-        _aBlockingList[8] = [{index:7,decrease:1},{index:9,decrease:1}];
+        _aBlockingList[3] = [{index:2,decrease:1},{index:4,decrease:1}];
+
+        _aBlockingList[4] = [{index:3,decrease:1},{index:5,decrease:1}];
+        _aBlockingList[5] = [{index:4,decrease:1},{index:6,decrease:1}];
+        _aBlockingList[6] = [{index:5,decrease:1},{index:8,decrease:1}];
+
+        _aBlockingList[7] = [{index:9,decrease:1}];
+        _aBlockingList[8] = [{index:6,decrease:1}];
+
         _aBlockingList[9] = [{index:8,decrease:1},{index:10,decrease:1}];
         _aBlockingList[10] = [{index:9,decrease:1}];
         _aBlockingList[11] = [{index:10,decrease:1}];
-
         _aBlockingList[12] = [{index:13,decrease:1}];
         _aBlockingList[13] = [{index:14,decrease:1}];
 
         _aBlockingList[14] = [{index:15,decrease:1}];
         _aBlockingList[15] = [{index:14,decrease:1},{index:16,decrease:1}];
         _aBlockingList[16] = [{index:15,decrease:1},{index:17,decrease:1}];
-        _aBlockingList[17] = [{index:16,decrease:1},{index:18,decrease:1}];
-        _aBlockingList[18] = [{index:17,decrease:1}];
 
-        _aBlockingList[19] = [{index:20,decrease:1}];
-        _aBlockingList[20] = [{index:19,decrease:1},{index:21,decrease:1}];
+        _aBlockingList[17] = [{index:12,decrease:1}];
+        _aBlockingList[18] = [{index:17,decrease:1},{index:21,decrease:1}];
+        _aBlockingList[19] = [{index:23,decrease:1},{index:13,decrease:1}];
+
+        _aBlockingList[20] = [];
         _aBlockingList[21] = [{index:20,decrease:1},{index:22,decrease:1}];
         _aBlockingList[22] = [{index:21,decrease:1},{index:23,decrease:1}];
         _aBlockingList[23] = [{index:22,decrease:1}];
 
-        _aBlockingList[24] = [{index:23,decrease:1},{index:25,decrease:1}];
-        _aBlockingList[25] = [{index:24,decrease:1},{index:26,decrease:1}];
+        _aBlockingList[24] = [{index:25,decrease:1}];
+        _aBlockingList[25] = [{index:24,decrease:1}];
 
-        _aBlockingList[26] = [{index:25,decrease:1},{index:27,decrease:1}];
+        _aBlockingList[26] = [{index:27,decrease:1}];
         _aBlockingList[27] = [{index:26,decrease:1},{index:28,decrease:1}];
-        _aBlockingList[28] = [{index:27,decrease:1}];
+        _aBlockingList[28] = [{index:27,decrease:1},,{index:29,decrease:1}];
         _aBlockingList[29] = [{index:28,decrease:1}];
-        _aBlockingList[30] = [{index:31,decrease:1},{index:43,decrease:1}];
-        _aBlockingList[31] = [{index:32,decrease:1}];
+
+        _aBlockingList[30] = [{index:31,decrease:1}];
+        _aBlockingList[31] = [{index:30,decrease:1},{index:32,decrease:1}];
         _aBlockingList[32] = [{index:31,decrease:1},{index:33,decrease:1}];
         _aBlockingList[33] = [{index:32,decrease:1},{index:34,decrease:1}];
         _aBlockingList[34] = [{index:33,decrease:1},{index:35,decrease:1}];
-        _aBlockingList[35] = [{index:34,decrease:1},{index:36,decrease:1}];
-        _aBlockingList[36] = [{index:35,decrease:1},{index:37,decrease:1}];
-        _aBlockingList[37] = [{index:36,decrease:1},{index:38,decrease:1}];
+        _aBlockingList[35] = [{index:34,decrease:1}];
+
+        // _aBlockingList[36] = [{index:35,decrease:1},{index:37,decrease:1}];
+        // _aBlockingList[37] = [{index:36,decrease:1},{index:38,decrease:1}];
         // _aBlockingList[38] = [{index:37,decrease:1},{index:39,decrease:1}];
         // _aBlockingList[39] = [{index:38,decrease:1},{index:40,decrease:1}];
         // _aBlockingList[40] = [{index:39,decrease:1},{index:41,decrease:1}];
@@ -481,27 +496,33 @@ function CLayoutSettings(){
         _aHeightTile[14] = 0;
         _aHeightTile[15] = 0;
         _aHeightTile[16] = 0;
+
         _aHeightTile[17] = 0;
         _aHeightTile[18] = 0;
         _aHeightTile[19] = 0;
+
         _aHeightTile[20] = 0;
         _aHeightTile[21] = 0;
         _aHeightTile[22] = 0;
         _aHeightTile[23] = 0;
+
         _aHeightTile[24] = 0;
         _aHeightTile[25] = 0;
+
         _aHeightTile[26] = 0;
         _aHeightTile[27] = 0;
         _aHeightTile[28] = 0;
         _aHeightTile[29] = 0;
+
         _aHeightTile[30] = 0;
         _aHeightTile[31] = 0;
         _aHeightTile[32] = 0;
         _aHeightTile[33] = 0;
         _aHeightTile[34] = 0;
         _aHeightTile[35] = 0;
-        _aHeightTile[36] = 0;
-        _aHeightTile[37] = 0;
+
+        // _aHeightTile[36] = 0;
+        // _aHeightTile[37] = 0;
         // _aHeightTile[38] = 0;
         // _aHeightTile[39] = 0;
         // _aHeightTile[40] = 0;
