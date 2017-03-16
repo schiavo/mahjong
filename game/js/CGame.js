@@ -147,6 +147,63 @@ function CGame(){
         }
         
     };
+
+    this.getTileMessage = function(tileValue){
+        var tileMessage;
+        console.log(tileValue);
+        switch(tileValue){
+            case "circle1":{
+                tileMessage = "Firefox and Chrome share a probabilistic signal with LG phone.  LG Device ID is linked to person ABC111 via a hashed email address";
+                break;
+            }
+            case "circle2":{
+                tileMessage = "iPhone device ID and firefox cookie share the same Verizon ID.  Verizon user JKL111 logs in to Verizon app on both iPhone and Samsung device.  ONE by AOL associates the iPhone and the Samsung tablet to with person JKL111";
+                break;
+            }
+            case "bamboo1":{
+                tileMessage = "User checks AOL mail on Dell Chrome browser and iPad App.  AOL email address becomes person identifier STP111.  iPhone linked probabilistically by sharing same signals at similar times of use as iPad. ONE by AOL associates the Dell browser and both iPad web/app environments with person STP111";
+                break;
+            }
+            case "bamboo2":{
+                tileMessage = "The Chrome PC cookie is linked to a hashed email address for person QRS111.  The Firefox and Safari cookies are linked probabilistically via shared signals we see consistently. ONE by AOL associates the two Lenovo browsers and the Macbook Safari as person QRS111";
+                break;
+            }
+            case "character1":{
+                tileMessage = "Firefox and Chrome share a probabilistic signal with Google phone.  Google Device ID is linked to person ABC222 via a hashed email address";
+                break;
+            }
+            case "character2":{
+                tileMessage = "Galaxy 5 device ID and firefox cookie share the same Verizon ID.  Verizon user JKL222 logs in to Verizon app on both iPhone and Galaxy device.  ONE by AOL associates the Galaxy 5 and the Samsung tablet to with person JKL222";
+                break;
+            }
+            case "wind1":{
+                tileMessage = "User checks AOL mail on HP Chrome browser and Surface browser.  AOL email address becomes person identifier STP222.  iPhone linked probabilistically by sharing same signals at similar times of use as iPad. ONE by AOL associates the Dell browser and both iPad web/app environments with person STP222";
+                break;
+            }
+            case "wind2":{
+                tileMessage = "The Chrome PC cookie is linked to a hashed email address for person QRS222.  The Firefox and Safari cookies are linked probabilistically via shared signals we see consistently. ONE by AOL associates the two Lenovo browsers and the iMac Safari as person QRS222";
+                break;
+            }
+            case "dragon1":{
+                tileMessage = "Firefox and Chrome share a probabilistic signal with HTC phone.  HTC Device ID is linked to person ABC333 via a hashed email address";
+                break;
+            }
+            case "dragon2":{
+                tileMessage = "Droid device ID and firefox cookie share the same Verizon ID.  Verizon user JKL333 logs in to Verizon app on both Droid and iPad.  ONE by AOL associates the Droid and the iPad to with person JKL333";
+                break;
+            }
+            case "flower1":{
+                tileMessage = "User checks AOL mail on Asus Chrome browser and iPad App.  AOL email address becomes person identifier STP333.  iPhone linked probabilistically by sharing same signals at similar times of use as iPad. ONE by AOL associates the Asus browser and both iPad web/app environments with person STP333.";
+                break;
+            }
+            case "season1":{
+                tileMessage = "The HP PC cookie is linked to a hashed email address for person QRS333.  The Firefox and Safari cookies are linked probabilistically via shared signals we see consistently. ONE by AOL associates the two HP browsers and the Mac Pro Safari as person QRS333";
+                break;
+            }
+        }
+        console.log(tileMessage);
+        return tileMessage;
+    }
     
     this._reset = function(){
        _iScore =0;
@@ -251,7 +308,10 @@ function CGame(){
     this._checkTileMatching = function(){
         if(_oFirstTileSelected.getValue() === _oSecondTileSelected.getValue() && _oFirstTileSelected.getValue() === _oThirdTileSelected.getValue()){
                 //MATCHING FOUND!!
-                this._showMessage();
+            console.log(_oFirstTileSelected.getValue());
+                var message = this.getTileMessage(_oFirstTileSelected.getValue());
+                this._showMessage(message);
+
                 _oInterface.showBlock();
                 
                 this._checkForSimilarBlock(_oFirstTileSelected);
@@ -273,9 +333,9 @@ function CGame(){
         _oThirdTileSelected = null;
     };
 
-    this._showMessage = function(){
+    this._showMessage = function(message){
         _oMsgBox.setTextButton(2,"OK");
-        _oMsgBox.showMessageBox("", "Blah", MSG_BOX_MODE_OK,
+        _oMsgBox.showMessageBox("", message, MSG_BOX_MODE_OK,
             null, ON_MSGBOX_NOT_EXIT_FROM_GAME, null);
         // $("#msg_box_text").html("Doodie");
         // $("#msg_box").toggle();
