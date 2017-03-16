@@ -359,7 +359,7 @@ function CLayoutSettings(){
 
         _aBlockingList[26] = [{index:27,decrease:1}];
         _aBlockingList[27] = [{index:26,decrease:1},{index:28,decrease:1}];
-        _aBlockingList[28] = [{index:27,decrease:1},,{index:29,decrease:1}];
+        _aBlockingList[28] = [{index:27,decrease:1},{index:24,decrease:1}];
         _aBlockingList[29] = [{index:28,decrease:1}];
 
         _aBlockingList[30] = [{index:31,decrease:1}];
