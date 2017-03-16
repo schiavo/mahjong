@@ -22,14 +22,14 @@
 
 #msg_box_text{
     width: 480px;
-    top: 210px;
+    top: 270px;
     left: 158px;
     
     text-align: center;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 24px;
     color: #000000;
-    /*text-shadow: 2px 0 0 #d7d5d2, -2px 0 0 #d7d5d2, 0 2px 0 #d7d5d2, 0 -2px 0 #d7d5d2, 2px 2px #d7d5d2, -2px -2px 0 #d7d5d2, 2px -2px 0 #d7d5d2, -2px 2px 0 #d7d5d2;*/
+    text-shadow: 2px 0 0 #d7d5d2, -2px 0 0 #d7d5d2, 0 2px 0 #d7d5d2, 0 -2px 0 #d7d5d2, 2px 2px #d7d5d2, -2px -2px 0 #d7d5d2, 2px -2px 0 #d7d5d2, -2px 2px 0 #d7d5d2;
     font-family: 'blackplotanregular';
 }
 
