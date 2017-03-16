@@ -9,11 +9,11 @@ function CMenuLayout(){
           szBuffer+="<div id='text_choose_layout' style=\"background-image:url("+s_oSpriteLibrary.getSpritePath('choose_layout')+");\"></div>";
           
           szBuffer+="<div id='mahjong_layout_0' class='mahjong_layout' style=\"background-image:url("+s_oSpriteLibrary.getSpritePath('layout_bg')+")\"></div>";
-          szBuffer+="<div id='mahjong_layout_1' class='mahjong_layout' style=\"background-image:url("+s_oSpriteLibrary.getSpritePath('layout_bg')+")\"></div>";
-          szBuffer+="<div id='mahjong_layout_2' class='mahjong_layout' style=\"background-image:url("+s_oSpriteLibrary.getSpritePath('layout_bg')+")\"></div>";
-          
-          szBuffer+="<div id='arrow_button_left' class='arrow_button' style=\"background-image:url("+s_oSpriteLibrary.getSpritePath('arrow_left')+")\"></div>";
-          szBuffer+="<div id='arrow_button_right' class='arrow_button' style=\"background-image:url("+s_oSpriteLibrary.getSpritePath('arrow_right')+")\"></div>";
+          // szBuffer+="<div id='mahjong_layout_1' class='mahjong_layout' style=\"background-image:url("+s_oSpriteLibrary.getSpritePath('layout_bg')+")\"></div>";
+          // szBuffer+="<div id='mahjong_layout_2' class='mahjong_layout' style=\"background-image:url("+s_oSpriteLibrary.getSpritePath('layout_bg')+")\"></div>";
+          //
+          // szBuffer+="<div id='arrow_button_left' class='arrow_button' style=\"background-image:url("+s_oSpriteLibrary.getSpritePath('arrow_left')+")\"></div>";
+          // szBuffer+="<div id='arrow_button_right' class='arrow_button' style=\"background-image:url("+s_oSpriteLibrary.getSpritePath('arrow_right')+")\"></div>";
           
           $("#menu_layout").html(szBuffer);
 

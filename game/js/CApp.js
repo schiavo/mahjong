@@ -176,7 +176,7 @@ function CApp(){
         
         szCurSection = "menu_container";
     };
-    
+    //TODO bypass layout selection
     this.gotoMenuLayout = function(){
         if(szCurSection !== ""){
             $("#"+szCurSection).html("");
