@@ -77,42 +77,18 @@ function CGame(){
     };
     
     this._initTilesOnBoard = function(){
-        var aTileValues = new Array("circle1", "circle1", "circle1",
-                                    "circle2", "circle2", "circle2",
-                                    // "circle3", "circle3", "circle3",
-                                    // "circle4", "circle4", "circle4", "circle4",
-                                    // "circle5", "circle5", "circle5", "circle5",
-                                    // "circle6", "circle6", "circle6", "circle6",
-                                    // "circle7", "circle7", "circle7", "circle7",
-                                    // "circle8", "circle8", "circle8", "circle8",
-                                    // "circle9", "circle9", "circle9", "circle9",
-                                    "bamboo1", "bamboo1", "bamboo1",
-                                    "bamboo2", "bamboo2", "bamboo2",
-                                    // "bamboo3", "bamboo3", "bamboo3",
-                                    // "bamboo4", "bamboo4", "bamboo4", "bamboo4",
-                                    // "bamboo5", "bamboo5", "bamboo5", "bamboo5",
-                                    // "bamboo6", "bamboo6", "bamboo6", "bamboo6",
-                                    // "bamboo7", "bamboo7", "bamboo7", "bamboo7",
-                                    // "bamboo8", "bamboo8", "bamboo8", "bamboo8",
-                                    // "bamboo9", "bamboo9", "bamboo9", "bamboo9",
-                                    "characters1", "characters1", "characters1",
-                                    "characters2", "characters2", "characters2",
-                                    // "characters3", "characters3", "characters3",
-                                    // "characters4", "characters4", "characters4", "characters4",
-                                    // "characters5", "characters5", "characters5", "characters5",
-                                    // "characters6", "characters6", "characters6", "characters6",
-                                    // "characters7", "characters7", "characters7", "characters7",
-                                    // "characters8", "characters8", "characters8", "characters8",
-                                    // "characters9", "characters9", "characters9", "characters9",
-                                    "wind1", "wind1", "wind1",
-                                    "wind2", "wind2", "wind2",
-                                    // "wind3", "wind3", "wind3", "wind3",
-                                    // "wind4", "wind4", "wind4", "wind4",
-                                    "dragon1", "dragon1", "dragon1",
-                                    "dragon2", "dragon2", "dragon2",
-                                    // "dragon3", "dragon3", "dragon3",
-                                    "flower1", "flower2", "flower3",
-                                    "season1", "season2", "season3"
+        var aTileValues = new Array("one1", "one2", "one3",
+                                    "two1", "two2", "two3",
+                                    "three1", "three2", "three3",
+                                    "four1", "four2", "four3",
+                                    "five1", "five2", "five3",
+                                    "six1", "six2", "six3",
+                                    "seven1", "seven2", "seven3",
+                                    "eight1", "eight2", "eight3",
+                                    "nine1", "nine2", "nine3",
+                                    "ten1", "ten2", "ten3",
+                                    "eleven1", "eleven2", "eleven3",
+                                    "twelve1", "twelve2", "twelve3"
         );
                                     
         aTileValues  = shuffle(aTileValues);                        
@@ -152,51 +128,51 @@ function CGame(){
         var tileMessage;
         console.log(tileValue);
         switch(tileValue){
-            case "circle1":{
+            case "one":{
                 tileMessage = "Firefox and Chrome share a probabilistic signal with LG phone.  LG Device ID is linked to person ABC111 via a hashed email address";
                 break;
             }
-            case "circle2":{
+            case "two":{
                 tileMessage = "iPhone device ID and firefox cookie share the same Verizon ID.  Verizon user JKL111 logs in to Verizon app on both iPhone and Samsung device.  ONE by AOL associates the iPhone and the Samsung tablet to with person JKL111";
                 break;
             }
-            case "bamboo1":{
+            case "three":{
                 tileMessage = "User checks AOL mail on Dell Chrome browser and iPad App.  AOL email address becomes person identifier STP111.  iPhone linked probabilistically by sharing same signals at similar times of use as iPad. ONE by AOL associates the Dell browser and both iPad web/app environments with person STP111";
                 break;
             }
-            case "bamboo2":{
+            case "four":{
                 tileMessage = "The Chrome PC cookie is linked to a hashed email address for person QRS111.  The Firefox and Safari cookies are linked probabilistically via shared signals we see consistently. ONE by AOL associates the two Lenovo browsers and the Macbook Safari as person QRS111";
                 break;
             }
-            case "character1":{
+            case "five":{
                 tileMessage = "Firefox and Chrome share a probabilistic signal with Google phone.  Google Device ID is linked to person ABC222 via a hashed email address";
                 break;
             }
-            case "character2":{
+            case "six":{
                 tileMessage = "Galaxy 5 device ID and firefox cookie share the same Verizon ID.  Verizon user JKL222 logs in to Verizon app on both iPhone and Galaxy device.  ONE by AOL associates the Galaxy 5 and the Samsung tablet to with person JKL222";
                 break;
             }
-            case "wind1":{
+            case "seven":{
                 tileMessage = "User checks AOL mail on HP Chrome browser and Surface browser.  AOL email address becomes person identifier STP222.  iPhone linked probabilistically by sharing same signals at similar times of use as iPad. ONE by AOL associates the Dell browser and both iPad web/app environments with person STP222";
                 break;
             }
-            case "wind2":{
+            case "eight":{
                 tileMessage = "The Chrome PC cookie is linked to a hashed email address for person QRS222.  The Firefox and Safari cookies are linked probabilistically via shared signals we see consistently. ONE by AOL associates the two Lenovo browsers and the iMac Safari as person QRS222";
                 break;
             }
-            case "dragon1":{
+            case "nine":{
                 tileMessage = "Firefox and Chrome share a probabilistic signal with HTC phone.  HTC Device ID is linked to person ABC333 via a hashed email address";
                 break;
             }
-            case "dragon2":{
+            case "ten":{
                 tileMessage = "Droid device ID and firefox cookie share the same Verizon ID.  Verizon user JKL333 logs in to Verizon app on both Droid and iPad.  ONE by AOL associates the Droid and the iPad to with person JKL333";
                 break;
             }
-            case "flower1":{
+            case "eleven":{
                 tileMessage = "User checks AOL mail on Asus Chrome browser and iPad App.  AOL email address becomes person identifier STP333.  iPhone linked probabilistically by sharing same signals at similar times of use as iPad. ONE by AOL associates the Asus browser and both iPad web/app environments with person STP333.";
                 break;
             }
-            case "season1":{
+            case "twelve":{
                 tileMessage = "The HP PC cookie is linked to a hashed email address for person QRS333.  The Firefox and Safari cookies are linked probabilistically via shared signals we see consistently. ONE by AOL associates the two HP browsers and the Mac Pro Safari as person QRS333";
                 break;
             }
@@ -420,42 +396,18 @@ function CGame(){
         $("#match_game_container").css("display","none");
         
         do{
-            var aTileValues = new Array("circle1", "circle1", "circle1",
-                                        "circle2", "circle2", "circle2",
-                                        // "circle3", "circle3", "circle3",
-                                        // "circle4", "circle4", "circle4", "circle4",
-                                        // "circle5", "circle5", "circle5", "circle5",
-                                        // "circle6", "circle6", "circle6", "circle6",
-                                        // "circle7", "circle7", "circle7", "circle7",
-                                        // "circle8", "circle8", "circle8", "circle8",
-                                        // "circle9", "circle9", "circle9", "circle9",
-                                        "bamboo1", "bamboo1", "bamboo1",
-                                        "bamboo2", "bamboo2", "bamboo2",
-                                        // "bamboo3", "bamboo3", "bamboo3",
-                                        // "bamboo4", "bamboo4", "bamboo4", "bamboo4",
-                                        // "bamboo5", "bamboo5", "bamboo5", "bamboo5",
-                                        // "bamboo6", "bamboo6", "bamboo6", "bamboo6",
-                                        // "bamboo7", "bamboo7", "bamboo7", "bamboo7",
-                                        // "bamboo8", "bamboo8", "bamboo8", "bamboo8",
-                                        // "bamboo9", "bamboo9", "bamboo9", "bamboo9",
-                                        "characters1", "characters1", "characters1",
-                                        "characters2", "characters2", "characters2",
-                                        // "characters3", "characters3", "characters3",
-                                        // "characters4", "characters4", "characters4", "characters4",
-                                        // "characters5", "characters5", "characters5", "characters5",
-                                        // "characters6", "characters6", "characters6", "characters6",
-                                        // "characters7", "characters7", "characters7", "characters7",
-                                        // "characters8", "characters8", "characters8", "characters8",
-                                        // "characters9", "characters9", "characters9", "characters9",
-                                        "wind1", "wind1", "wind1",
-                                        "wind2", "wind2", "wind2",
-                                        // "wind3", "wind3", "wind3", "wind3",
-                                        // "wind4", "wind4", "wind4", "wind4",
-                                        "dragon1", "dragon1", "dragon1",
-                                        "dragon2", "dragon2", "dragon2",
-                                        // "dragon3", "dragon3", "dragon3",
-                                        "flower1", "flower2", "flower3",
-                                        "season1", "season2", "season3"
+            var aTileValues = new Array("one1", "one2", "one3",
+                                        "two1", "two2", "two3",
+                                        "three1", "three2", "three3",
+                                        "four1", "four2", "four3",
+                                        "five1", "five2", "five3",
+                                        "six1", "six2", "six3",
+                                        "seven1", "seven2", "seven3",
+                                        "eight1", "eight2", "eight3",
+                                        "nine1", "nine2", "nine3",
+                                        "ten1", "ten2", "ten3",
+                                        "eleven1", "eleven2", "eleven3",
+                                        "twelve1", "twelve2", "twelve3"
             );
 
             var aLeftBlocks= _oLayoutSettings.getLeftBlocks();
