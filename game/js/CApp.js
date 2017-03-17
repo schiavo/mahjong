@@ -26,60 +26,59 @@ function CApp(){
 
             s_oSpriteLibrary.addSprite("arrow_left","./css/skins/"+s_szFolder+"/arrow_left.png");
             s_oSpriteLibrary.addSprite("arrow_right","./css/skins/"+s_szFolder+"/arrow_right.png");
-            s_oSpriteLibrary.addSprite("bamboo1","./css/skins/"+s_szFolder+"/bamboo1.png");
-            s_oSpriteLibrary.addSprite("bamboo2","./css/skins/"+s_szFolder+"/bamboo2.png");
-            s_oSpriteLibrary.addSprite("bamboo3","./css/skins/"+s_szFolder+"/bamboo3.png");
-            s_oSpriteLibrary.addSprite("bamboo4","./css/skins/"+s_szFolder+"/bamboo4.png");
-            s_oSpriteLibrary.addSprite("bamboo5","./css/skins/"+s_szFolder+"/bamboo5.png");
-            s_oSpriteLibrary.addSprite("bamboo6","./css/skins/"+s_szFolder+"/bamboo6.png");
-            s_oSpriteLibrary.addSprite("bamboo7","./css/skins/"+s_szFolder+"/bamboo7.png");
-            s_oSpriteLibrary.addSprite("bamboo8","./css/skins/"+s_szFolder+"/bamboo8.png");
-            s_oSpriteLibrary.addSprite("bamboo9","./css/skins/"+s_szFolder+"/bamboo9.png");
+            s_oSpriteLibrary.addSprite("one1","./css/skins/"+s_szFolder+"/tile-c-1.png");
+            s_oSpriteLibrary.addSprite("one2","./css/skins/"+s_szFolder+"/tile-d-1.png");
+            s_oSpriteLibrary.addSprite("one3","./css/skins/"+s_szFolder+"/tile-e-1.png");
 
-            s_oSpriteLibrary.addSprite("characters1","./css/skins/"+s_szFolder+"/characters1.png");
-            s_oSpriteLibrary.addSprite("characters2","./css/skins/"+s_szFolder+"/characters2.png");
-            s_oSpriteLibrary.addSprite("characters3","./css/skins/"+s_szFolder+"/characters3.png");
-            s_oSpriteLibrary.addSprite("characters4","./css/skins/"+s_szFolder+"/characters4.png");
-            s_oSpriteLibrary.addSprite("characters5","./css/skins/"+s_szFolder+"/characters5.png");
-            s_oSpriteLibrary.addSprite("characters6","./css/skins/"+s_szFolder+"/characters6.png");
-            s_oSpriteLibrary.addSprite("characters7","./css/skins/"+s_szFolder+"/characters7.png");
-            s_oSpriteLibrary.addSprite("characters8","./css/skins/"+s_szFolder+"/characters8.png");
-            s_oSpriteLibrary.addSprite("characters9","./css/skins/"+s_szFolder+"/characters9.png");
+            s_oSpriteLibrary.addSprite("two1","./css/skins/"+s_szFolder+"/tile-c-2.png");
+            s_oSpriteLibrary.addSprite("two2","./css/skins/"+s_szFolder+"/tile-d-2.png");
+            s_oSpriteLibrary.addSprite("two3","./css/skins/"+s_szFolder+"/tile-e-2.png");
 
-            s_oSpriteLibrary.addSprite("circle1","./css/skins/"+s_szFolder+"/circle1.png");
-            s_oSpriteLibrary.addSprite("circle2","./css/skins/"+s_szFolder+"/circle2.png");
-            s_oSpriteLibrary.addSprite("circle3","./css/skins/"+s_szFolder+"/circle3.png");
-            s_oSpriteLibrary.addSprite("circle4","./css/skins/"+s_szFolder+"/circle4.png");
-            s_oSpriteLibrary.addSprite("circle5","./css/skins/"+s_szFolder+"/circle5.png");
-            s_oSpriteLibrary.addSprite("circle6","./css/skins/"+s_szFolder+"/circle6.png");
-            s_oSpriteLibrary.addSprite("circle7","./css/skins/"+s_szFolder+"/circle7.png");
-            s_oSpriteLibrary.addSprite("circle8","./css/skins/"+s_szFolder+"/circle8.png");
-            s_oSpriteLibrary.addSprite("circle9","./css/skins/"+s_szFolder+"/circle9.png");
+            s_oSpriteLibrary.addSprite("three1","./css/skins/"+s_szFolder+"/tile-c-3.png");
+            s_oSpriteLibrary.addSprite("three2","./css/skins/"+s_szFolder+"/tile-d-3.png");
+            s_oSpriteLibrary.addSprite("three3","./css/skins/"+s_szFolder+"/tile-e-3.png");
 
-            s_oSpriteLibrary.addSprite("dragon1","./css/skins/"+s_szFolder+"/dragon1.png");
-            s_oSpriteLibrary.addSprite("dragon2","./css/skins/"+s_szFolder+"/dragon2.png");
-            s_oSpriteLibrary.addSprite("dragon3","./css/skins/"+s_szFolder+"/dragon3.png");
+            s_oSpriteLibrary.addSprite("four1","./css/skins/"+s_szFolder+"/tile-c-4.png");
+            s_oSpriteLibrary.addSprite("four2","./css/skins/"+s_szFolder+"/tile-d-4.png");
+            s_oSpriteLibrary.addSprite("four3","./css/skins/"+s_szFolder+"/tile-e-4.png");
 
-            s_oSpriteLibrary.addSprite("flower1","./css/skins/"+s_szFolder+"/flower1.png");
-            s_oSpriteLibrary.addSprite("flower2","./css/skins/"+s_szFolder+"/flower2.png");
-            s_oSpriteLibrary.addSprite("flower3","./css/skins/"+s_szFolder+"/flower3.png");
-            s_oSpriteLibrary.addSprite("flower4","./css/skins/"+s_szFolder+"/flower4.png");
+            s_oSpriteLibrary.addSprite("five1","./css/skins/"+s_szFolder+"/tile-c-5.png");
+            s_oSpriteLibrary.addSprite("five2","./css/skins/"+s_szFolder+"/tile-d-5.png");
+            s_oSpriteLibrary.addSprite("five3","./css/skins/"+s_szFolder+"/tile-e-5.png");
 
-            s_oSpriteLibrary.addSprite("season1","./css/skins/"+s_szFolder+"/season1.png");
-            s_oSpriteLibrary.addSprite("season2","./css/skins/"+s_szFolder+"/season2.png");
-            s_oSpriteLibrary.addSprite("season3","./css/skins/"+s_szFolder+"/season3.png");
-            s_oSpriteLibrary.addSprite("season4","./css/skins/"+s_szFolder+"/season4.png");
+            s_oSpriteLibrary.addSprite("six1","./css/skins/"+s_szFolder+"/tile-c-6.png");
+            s_oSpriteLibrary.addSprite("six2","./css/skins/"+s_szFolder+"/tile-d-6.png");
+            s_oSpriteLibrary.addSprite("six3","./css/skins/"+s_szFolder+"/tile-e-6.png");
 
-            s_oSpriteLibrary.addSprite("wind1","./css/skins/"+s_szFolder+"/wind1.png");
-            s_oSpriteLibrary.addSprite("wind2","./css/skins/"+s_szFolder+"/wind2.png");
-            s_oSpriteLibrary.addSprite("wind3","./css/skins/"+s_szFolder+"/wind3.png");
-            s_oSpriteLibrary.addSprite("wind4","./css/skins/"+s_szFolder+"/wind4.png");
+            s_oSpriteLibrary.addSprite("seven1","./css/skins/"+s_szFolder+"/tile-c-7.png");
+            s_oSpriteLibrary.addSprite("seven2","./css/skins/"+s_szFolder+"/tile-d-7.png");
+            s_oSpriteLibrary.addSprite("seven3","./css/skins/"+s_szFolder+"/tile-e-7.png");
 
-            s_oSpriteLibrary.addSprite("selection","./css/skins/"+s_szFolder+"/selection.png");
+            s_oSpriteLibrary.addSprite("eight1","./css/skins/"+s_szFolder+"/tile-c-8.png");
+            s_oSpriteLibrary.addSprite("eight2","./css/skins/"+s_szFolder+"/tile-d-8.png");
+            s_oSpriteLibrary.addSprite("eight3","./css/skins/"+s_szFolder+"/tile-e-8.png");
+
+            s_oSpriteLibrary.addSprite("nine1","./css/skins/"+s_szFolder+"/tile-c-9.png");
+            s_oSpriteLibrary.addSprite("nine2","./css/skins/"+s_szFolder+"/tile-d-9.png");
+            s_oSpriteLibrary.addSprite("nine3","./css/skins/"+s_szFolder+"/tile-e-9.png");
+
+            s_oSpriteLibrary.addSprite("ten1","./css/skins/"+s_szFolder+"/tile-c-10.png");
+            s_oSpriteLibrary.addSprite("ten2","./css/skins/"+s_szFolder+"/tile-d-10.png");
+            s_oSpriteLibrary.addSprite("ten3","./css/skins/"+s_szFolder+"/tile-e-10.png");
+
+            s_oSpriteLibrary.addSprite("eleven1","./css/skins/"+s_szFolder+"/tile-c-11.png");
+            s_oSpriteLibrary.addSprite("eleven2","./css/skins/"+s_szFolder+"/tile-d-11.png");
+            s_oSpriteLibrary.addSprite("eleven3","./css/skins/"+s_szFolder+"/tile-e-11.png");
+
+            s_oSpriteLibrary.addSprite("twelve1","./css/skins/"+s_szFolder+"/tile-c-12.png");
+            s_oSpriteLibrary.addSprite("twelve2","./css/skins/"+s_szFolder+"/tile-d-12.png");
+            s_oSpriteLibrary.addSprite("twelve3","./css/skins/"+s_szFolder+"/tile-e-12.png");
+
+        s_oSpriteLibrary.addSprite("selection","./css/skins/"+s_szFolder+"/selection.png");
             s_oSpriteLibrary.addSprite("credits_text","./css/skins/"+s_szFolder+"/credits_text.png");
             s_oSpriteLibrary.addSprite("exit_but","./css/skins/"+s_szFolder+"/exit_but.png");
 
-            s_oSpriteLibrary.addSprite("game_bg","./css/skins/"+s_szFolder+"/game_bg.jpg");
+            s_oSpriteLibrary.addSprite("game_bg","./css/skins/"+s_szFolder+"/game_bg_option_1.jpg");
 
             s_oSpriteLibrary.addSprite("help_bg","./css/skins/"+s_szFolder+"/help_bg.jpg");
             s_oSpriteLibrary.addSprite("layout_bg","./css/skins/"+s_szFolder+"/layout_bg.png");
@@ -176,7 +175,7 @@ function CApp(){
         
         szCurSection = "menu_container";
     };
-    
+    //TODO bypass layout selection
     this.gotoMenuLayout = function(){
         if(szCurSection !== ""){
             $("#"+szCurSection).html("");

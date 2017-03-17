@@ -80,12 +80,32 @@ function CTile(iIndex,pPos,szLabel,aLeftBlocks,aRightBlocks,aUpBlocks,aBlockingL
         
         $("#tile_"+iIndex).off('mouseup', this,function(e) {e.data._onTileSelected()});
     };
-    
+    //Fuzzy matches
     this.assignLabel = function(){
-        if(_szLabel.indexOf("season") !== -1){
-            _szValue = "season";
-        }else if(_szLabel.indexOf("flower") !== -1){
-            _szValue = "flower";
+        if(_szLabel.indexOf("one") !== -1){
+            _szValue = "one";
+        }else if(_szLabel.indexOf("two") !== -1){
+            _szValue = "two";
+        }else if(_szLabel.indexOf("three") !== -1){
+            _szValue = "three";
+        }else if(_szLabel.indexOf("four") !== -1){
+            _szValue = "four";
+        }else if(_szLabel.indexOf("five") !== -1){
+            _szValue = "five";
+        }else if(_szLabel.indexOf("six") !== -1){
+            _szValue = "six";
+        }else if(_szLabel.indexOf("seven") !== -1){
+            _szValue = "seven";
+        }else if(_szLabel.indexOf("eight") !== -1){
+            _szValue = "eight";
+        }else if(_szLabel.indexOf("nine") !== -1){
+            _szValue = "nine";
+        }else if(_szLabel.indexOf("ten") !== -1){
+            _szValue = "ten";
+        }else if(_szLabel.indexOf("eleven") !== -1){
+            _szValue = "eleven";
+        }else if(_szLabel.indexOf("twelve") !== -1){
+            _szValue = "twelve";
         }else{
             _szValue=_szLabel;
         }
